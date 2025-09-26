@@ -1,4 +1,4 @@
-# Dark Purple Candy ✨
+# Dark Purple Candy 🍭
 
 A VS Code theme that blends deep midnight purples with candy-colored syntax highlights. Designed to be vivid enough for late-night sessions while staying easy on the eyes.
 
@@ -7,18 +7,20 @@ A VS Code theme that blends deep midnight purples with candy-colored syntax high
 ## Features
 - Rich UI styling across the workbench, terminal, and built-in panels
 - Carefully tuned contrast for readability without sacrificing atmosphere
-- Expanded semantic and textmate token coverage for modern languages
-- Optimized terminal ANSI palette to match the editor colors
+- Expanded semantic and TextMate token coverage for modern languages (Python `self`, bracket pairs, Markdown, diffs, etc.)
+- Harmonized terminal ANSI palette that mirrors the editor colors while staying easy on the eyes
+- Purpose-built assets (icon, screenshot) with publish-ready metadata and scripts
 
 ## Color Palette
 
 | Role | Hex |
 | --- | --- |
-| Background | `#1E0E2F` |
+| Core Background | `#1B0030` |
+| Sidebar/Panel | `#270542` |
 | Accent Pink | `#FF77AA` |
-| Candy Blue | `#66D9FF` |
-| Cotton-Candy Teal | `#4DD9D9` |
-| Honey Orange | `#FFB84D` |
+| Candy Blue | `#62BEE6` |
+| Cotton-Candy Teal | `#58C3C3` |
+| Honey Orange | `#ECAF68` |
 
 ## Installation
 
@@ -43,6 +45,13 @@ npm run ovsx:publish  # publishes to Open VSX (requires token)
 ```
 
 Before publishing a new version, update `CHANGELOG.md`, bump the version in `package.json`, and tag the release in git.
+
+### Live Preview While Editing
+
+1. Open this folder in VS Code and press `F5` to launch the Extension Development Host.
+2. Pick **Dark Purple Candy** in the host window via the Color Theme picker.
+3. Tweak `themes/color-theme.json` in your main window and run `Developer: Reload Window` inside the host to see changes instantly.
+4. Use `Developer: Inspect Editor Tokens and Scopes` to confirm which token scope is responsible for any color you want to adjust.
 
 ## Contributing
 
