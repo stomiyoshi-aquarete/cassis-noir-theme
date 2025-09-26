@@ -1,0 +1,57 @@
+{
+  "name": "dark-purple-candy-theme",
+  "displayName": "Dark Purple Candy",
+  "description": "A dark purple background theme with candy-colored syntax highlighting for VS Code.",
+  "version": "0.1.0",
+  "publisher": "aquarete",
+  "author": {
+    "name": "Aquarete Studio",
+    "email": "hello@aquarete.dev"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aquarete/dark-purple-candy-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aquarete/dark-purple-candy-theme/issues"
+  },
+  "homepage": "https://github.com/aquarete/dark-purple-candy-theme#readme",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "purple",
+    "dark",
+    "candy",
+    "pastel",
+    "vscode-theme"
+  ],
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#1E0E2F",
+    "theme": "dark"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run package",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "ovsx:publish": "ovsx publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Purple Candy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0",
+    "ovsx": "^0.9.1"
+  }
+}

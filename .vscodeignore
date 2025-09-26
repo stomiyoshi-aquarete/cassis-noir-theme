@@ -1,0 +1,10 @@
+**/*.tsbuildinfo
+**/*.log
+.vscode/
+.vscode-test/
+.git/
+.gitignore
+node_modules/
+coverage/
+tmp/
+*.vsix
