@@ -1,6 +1,6 @@
 # Cassis Noir color theme 🍇
 
-Embrace a refined coding experience with Cassis Noir. Midnight purples set a calm, eye-friendly base, while lively accent colors keep things feeling fresh and expressive. Perfect for late-night sessions, it’s designed to be easy on your eyes and make your workspace feel both elegant and inviting.
+Step into a workspace that feels both stylish and comfortable with Cassis Noir! Deep purples create a soothing backdrop, while playful accent colors add a splash of energy to your coding sessions. Whether you’re working late or just want a theme that’s easy on the eyes, Cassis Noir brings elegance and personality to every line of code.
 
 ![Cassis Noir screenshot](media/screenshot.png)
 
@@ -57,7 +57,7 @@ Before publishing a new version, update `CHANGELOG.md`, bump the version in `pac
 
 ## Contributing
 
-Have suggestions or see something missing? [Open an issue](https://github.com/aquarete/dark-purple-candy-theme/issues) or submit a pull request. Palette tweaks, additional language scopes, and screenshots in the theme are especially welcome.
+Have suggestions or see something missing? [Open an issue](https://github.com/aquarete/cassis-noir-theme/issues) or submit a pull request. Palette tweaks, additional language scopes, and screenshots in the theme are especially welcome.
 
 ## License
 

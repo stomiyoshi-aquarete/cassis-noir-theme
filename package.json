@@ -1,7 +1,7 @@
 {
-  "name": "dark-purple-candy-theme",
-  "displayName": "Dark Purple Candy",
-  "description": "A dark purple background theme with candy-colored syntax highlighting for VS Code.",
+  "name": "cassis-noir-theme",
+  "displayName": "Cassis Noir",
+  "description": "A refined midnight-purple VS Code theme with cassis-inspired accents and clear syntax contrast.",
   "version": "0.1.3",
   "publisher": "aquarete",
   "author": {
@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aquarete/dark-purple-candy-theme.git"
+    "url": "https://github.com/aquarete/cassis-noir-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/aquarete/dark-purple-candy-theme/issues"
+    "url": "https://github.com/aquarete/cassis-noir-theme/issues"
   },
-  "homepage": "https://github.com/aquarete/dark-purple-candy-theme#readme",
+  "homepage": "https://github.com/aquarete/cassis-noir-theme#readme",
   "categories": [
     "Themes"
   ],
   "keywords": [
     "purple",
     "dark",
-    "candy",
+    "cassis",
     "pastel",
     "vscode-theme"
   ],
@@ -44,7 +44,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Purple Candy",
+        "label": "Cassis Noir",
         "uiTheme": "vs-dark",
         "path": "./themes/color-theme.json"
       }

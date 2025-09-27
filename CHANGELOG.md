@@ -20,13 +20,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [0.1.0] - 2025-09-27
 ### Added
-- Initial public preview of Dark Purple Candy.
+- Initial public preview of Cassis Noir (formerly Dark Purple Candy).
 - Comprehensive workbench styling and terminal palette.
 - Expanded TextMate token coverage with semantic highlighting enabled.
 - Publishing scripts (`vsce`, `ovsx`) and project metadata.
 - Repository documentation, license, and branding assets.
 
-[0.1.3]: https://github.com/aquarete/dark-purple-candy-theme/releases/tag/v0.1.3
-[0.1.2]: https://github.com/aquarete/dark-purple-candy-theme/releases/tag/v0.1.2
-[0.1.1]: https://github.com/aquarete/dark-purple-candy-theme/releases/tag/v0.1.1
-[0.1.0]: https://github.com/aquarete/dark-purple-candy-theme/releases/tag/v0.1.0
+[0.1.3]: https://github.com/aquarete/cassis-noir-theme/releases/tag/v0.1.3
+[0.1.2]: https://github.com/aquarete/cassis-noir-theme/releases/tag/v0.1.2
+[0.1.1]: https://github.com/aquarete/cassis-noir-theme/releases/tag/v0.1.1
+[0.1.0]: https://github.com/aquarete/cassis-noir-theme/releases/tag/v0.1.0
