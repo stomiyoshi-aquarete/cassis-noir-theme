@@ -1,15 +1,17 @@
-# Dark Purple Candy 🍭
+# Cassis Noir color theme 🍇
 
-A VS Code theme that blends deep midnight purples with candy-colored syntax highlights. Designed to be vivid enough for late-night sessions while staying easy on the eyes.
+Embrace a refined coding experience with Cassis Noir. Midnight purples set a calm, eye-friendly base, while lively accent colors keep things feeling fresh and expressive. Perfect for late-night sessions, it’s designed to be easy on your eyes and make your workspace feel both elegant and inviting.
 
-![Dark Purple Candy screenshot](media/screenshot.png)
+![Cassis Noir screenshot](media/screenshot.png)
 
 ## Features
 - Rich UI styling across the workbench, terminal, and built-in panels
 - Carefully tuned contrast for readability without sacrificing atmosphere
 - Expanded semantic and TextMate token coverage for modern languages (Python `self`, bracket pairs, Markdown, diffs, etc.)
+- Program elements in the same category share close hues while staying distinguishable (variables in purple, constants in blue-purple; strings in faded orange, numbers in faded yellow)
+- Rainbow bracket highlighting colors adjacent pairs with clearly different hues to make nested structures easy to follow
 - Harmonized terminal ANSI palette that mirrors the editor colors while staying easy on the eyes
-- Purpose-built assets (icon, screenshot) with publish-ready metadata and scripts
+
 
 ## Color Palette
 
@@ -26,14 +28,14 @@ A VS Code theme that blends deep midnight purples with candy-colored syntax high
 
 ### From the Marketplace
 1. Launch VS Code and open the Extensions view (`⇧⌘X` / `Ctrl+Shift+X`).
-2. Search for **Dark Purple Candy**.
+2. Search for **Cassis Noir**.
 3. Click **Install**, then select the theme from the Color Theme picker (`⌘K ⌘T` / `Ctrl+K Ctrl+T`).
 
 ### Manual Install (VSIX)
 1. Clone or download this repository.
 2. Run `npm install` followed by `npm run package` to produce a `.vsix` bundle in the project root.
 3. In VS Code, open the command palette (`⇧⌘P` / `Ctrl+Shift+P`) and select `Extensions: Install from VSIX...`.
-4. Pick the generated `dark-purple-candy-theme-*.vsix` file.
+4. Pick the generated `cassis-noir-theme-*.vsix` file.
 
 ## Development
 
@@ -49,7 +51,7 @@ Before publishing a new version, update `CHANGELOG.md`, bump the version in `pac
 ### Live Preview While Editing
 
 1. Open this folder in VS Code and press `F5` to launch the Extension Development Host.
-2. Pick **Dark Purple Candy** in the host window via the Color Theme picker.
+2. Pick **Cassis Noir** in the host window via the Color Theme picker.
 3. Tweak `themes/color-theme.json` in your main window and run `Developer: Reload Window` inside the host to see changes instantly.
 4. Use `Developer: Inspect Editor Tokens and Scopes` to confirm which token scope is responsible for any color you want to adjust.
 
