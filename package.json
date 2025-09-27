@@ -2,7 +2,7 @@
   "name": "dark-purple-candy-theme",
   "displayName": "Dark Purple Candy",
   "description": "A dark purple background theme with candy-colored syntax highlighting for VS Code.",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "publisher": "aquarete",
   "author": {
     "name": "Aquarete Studio",
