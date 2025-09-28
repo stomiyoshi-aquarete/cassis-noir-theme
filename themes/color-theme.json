@@ -87,10 +87,10 @@
     "gitDecoration.untrackedResourceForeground": "#AEEFD0",
     "gitDecoration.ignoredResourceForeground": "#5F4C71",
     "gitDecoration.conflictingResourceForeground": "#f7a575",
-    "button.background": "#cc68d0",
-    "button.foreground": "#2c0f45",
-    "button.hoverBackground": "#ff96ef",
-    "badge.background": "#FF77AA",
+    "button.background": "#510d5d",
+    "button.foreground": "#d6c5dc",
+    "button.hoverBackground": "#771588",
+    "badge.background": "#de9fd5",
     "badge.foreground": "#2B103B",
     "input.background": "#22003D",
     "input.border": "#2D0050",
@@ -136,7 +136,7 @@
     "editorBracketHighlight.foreground1": "#df7e7e",
     "editorBracketHighlight.foreground2": "#9590e8",
     "editorBracketHighlight.foreground3": "#f08dfb",
-    "editorBracketHighlight.foreground4": "#86c781",
+    "editorBracketHighlight.foreground4": "#c1bf61",
     "editorBracketHighlight.foreground5": "#80d2f9",
     "editorBracketHighlight.foreground6": "#E8C9E4",
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF4D73"
@@ -145,13 +145,14 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#6A6A75"
+        "foreground": "#837786"
       }
     },
     {
+      // This setting includes color of operator like `=` and `+`.
       "scope": "keyword",
       "settings": {
-        "foreground": "#ef83cd"
+        "foreground": "#e182d6"
       }
     },
     {

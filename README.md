@@ -18,11 +18,12 @@ Step into a workspace that feels both stylish and comfortable with Cassis Noir! 
 | Role | Hex |
 | --- | --- |
 | Core Background | `#1B0030` |
-| Sidebar/Panel | `#270542` |
+| Sidebar Background | `#200437` |
+| Panel Background | `#1D0033` |
 | Accent Pink | `#FF77AA` |
 | Candy Blue | `#62BEE6` |
 | Cotton-Candy Teal | `#58C3C3` |
-| Honey Orange | `#ECAF68` |
+| Peach Orange | `#ee986e` |
 
 ## Installation
 
