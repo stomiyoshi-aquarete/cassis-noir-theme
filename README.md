@@ -17,13 +17,16 @@ Step into a workspace that feels both stylish and comfortable with Cassis Noir! 
 
 | Role | Hex |
 | --- | --- |
-| Core Background | `#1B0030` |
+| Editor Background | `#1B0030` |
 | Sidebar Background | `#200437` |
 | Panel Background | `#1D0033` |
-| Accent Pink | `#FF77AA` |
-| Candy Blue | `#62BEE6` |
-| Cotton-Candy Teal | `#58C3C3` |
-| Peach Orange | `#ee986e` |
+| Activity Bar Background | `#160126` |
+| Status Bar Background | `#300055` |
+| Title Bar Background | `#1D0431` |
+| Activity Bar Badge | `#FF77AA` |
+| Terminal Blue | `#62BEE6` |
+| Terminal Cyan | `#58C3C3` |
+| Storage Type | `#ee986e` |
 
 ## Installation
 
