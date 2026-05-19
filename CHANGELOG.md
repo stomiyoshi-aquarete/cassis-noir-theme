@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.5] - 2026-05-19
+### Added
+- Diff editor styling for the built-in differ and GitHub Pull Requests extension: inserted/removed line and inline-text backgrounds, subtle text borders, diagonal-fill for unpaired regions, and overview ruler markers — all tuned for the cassis palette so highlighted text stays readable.
+
 ## [0.1.3] - 2025-09-27
 ### Changed
 - Rebalanced activity bar, badges, and list accents to keep navigation chrome candy-bright.
