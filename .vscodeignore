@@ -4,6 +4,8 @@
 .vscode-test/
 .git/
 .gitignore
+.github/
+.claude/
 node_modules/
 coverage/
 tmp/
