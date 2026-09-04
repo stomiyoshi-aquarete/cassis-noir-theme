@@ -16,7 +16,7 @@ The deep purple background makes default VS Code diff colors look harsh — the 
 
 | Layer | Key | Job | Current alpha |
 |---|---|---|---|
-| Line fill | `*.insertedLineBackground` / `*.removedLineBackground` | Broad "this block changed" cue | ~10% (`1A` / `14`) |
+| Line fill | `*.insertedLineBackground` / `*.removedLineBackground` | Broad "this block changed" cue | ~15% (`29` / `24`) |
 | Inline text fill | `*.insertedTextBackground` / `*.removedTextBackground` | Word-level highlight within a line | ~10% (`1A` / `14`) |
 | Inline border | `*.insertedTextBorder` / `*.removedTextBorder` | Sharp word-level boundary | ~3% (`08`) |
 | Diagonal fill | `diffEditor.diagonalFill` | Pattern in unpaired regions | ~25% (`40`) |
