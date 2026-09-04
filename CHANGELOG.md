@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.9] - 2026-09-04
+### Changed
+- Softened `diffEditor.removedLineBackground` from ~12% to ~9% alpha (`1e` → `17`) so the red line fill sits a touch quieter under the now-stronger inline highlights.
+### Fixed
+- The 0.1.8 notes misreported the diff alphas. What actually shipped in 0.1.8 was hand-tuned in the VS Code color picker: line fills `27` / `1e`, inline text fills `3b` / `55`, inline borders `19` / `49`. The layering table in `CLAUDE.md` now reflects the real values.
+
 ## [0.1.8] - 2026-09-04
 ### Added
 - `diffEditor.unchangedCodeBackground` (`#00000040`): a 25% black wash on unchanged lines so changed blocks pop against a slightly darker surround. Only takes effect when `diffEditor.hideUnchangedRegions.enabled` is on.

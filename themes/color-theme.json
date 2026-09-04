@@ -28,7 +28,7 @@
     "diffEditor.insertedLineBackground": "#26d97a27",
     "diffEditor.insertedTextBackground": "#26d97a3b",
     "diffEditor.insertedTextBorder": "#46d88a19",
-    "diffEditor.removedLineBackground": "#fa51571e",
+    "diffEditor.removedLineBackground": "#fa515717",
     "diffEditor.removedTextBackground": "#fa515755",
     "diffEditor.removedTextBorder": "#f66a6f49",
     "diffEditor.unchangedCodeBackground": "#00000040",
