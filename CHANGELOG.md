@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.8] - 2026-09-04
+### Added
+- `diffEditor.unchangedCodeBackground` (`#00000040`): a 25% black wash on unchanged lines so changed blocks pop against a slightly darker surround. Only takes effect when `diffEditor.hideUnchangedRegions.enabled` is on.
+### Changed
+- Brightened inserted/removed diff line backgrounds again, to ~20% / ~18% alpha (`33` / `2E`).
+
 ## [0.1.7] - 2026-09-04
 ### Changed
 - Brightened inserted/removed diff line backgrounds from ~10% to ~15% alpha so changed blocks read more clearly against the deep-purple base; inline text fills and borders unchanged.

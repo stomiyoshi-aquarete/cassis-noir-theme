@@ -16,11 +16,14 @@ The deep purple background makes default VS Code diff colors look harsh — the 
 
 | Layer | Key | Job | Current alpha |
 |---|---|---|---|
-| Line fill | `*.insertedLineBackground` / `*.removedLineBackground` | Broad "this block changed" cue | ~15% (`29` / `24`) |
+| Line fill | `*.insertedLineBackground` / `*.removedLineBackground` | Broad "this block changed" cue | ~20% / ~18% (`33` / `2E`) |
 | Inline text fill | `*.insertedTextBackground` / `*.removedTextBackground` | Word-level highlight within a line | ~10% (`1A` / `14`) |
 | Inline border | `*.insertedTextBorder` / `*.removedTextBorder` | Sharp word-level boundary | ~3% (`08`) |
 | Diagonal fill | `diffEditor.diagonalFill` | Pattern in unpaired regions | ~25% (`40`) |
 | Overview ruler | `diffEditorOverview.*Foreground` | Peripheral scrollbar markers | ~67% (`AA`) |
+| Unchanged wash | `diffEditor.unchangedCodeBackground` | Darkens unchanged lines so changed blocks pop | 25% black (`#00000040`) |
+
+**Unchanged wash caveat:** VS Code only paints `unchangedCodeBackground` when the user setting `diffEditor.hideUnchangedRegions.enabled` is `true` (default `false`). With it off the key is inert, and there is no theme key for the diff pane background as a whole — it just uses `editor.background`. Context lines adjacent to each change are left unstyled by VS Code, by design.
 
 **Key principle:** a translucent fill *always* tints the text underneath. Borders don't. When boundary clarity competes with text readability, push fills lower and let borders carry the boundary cue.
 
